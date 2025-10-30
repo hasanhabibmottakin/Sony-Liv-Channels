@@ -1,0 +1,105 @@
+name:  SonyLiv Auto Token & Playlist Updater
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+
+      - name: Run SonyLiv Auto Update
+        env:
+          SONYLIV_API_URL: ${{ secrets.SONYLIV_API_URL }}
+        run: |
+          php -r '
+          error_reporting(0);
+
+          $CACHE_FILE = "sony_token_bk.json";
+          $SONYLIV_JSON = getenv("SONYLIV_API_URL");
+          $API_FILE = "api.json";
+          $OUTPUT_JSON = "rest_api.json";
+          $PLAYLIST_FILE = "playlist.m3u";
+
+       
+          $cached_token = null;
+          if (file_exists($CACHE_FILE)) {
+              $cache = json_decode(file_get_contents($CACHE_FILE), true);
+              if ($cache && isset($cache["token"], $cache["time"])) {
+                  if (time() - $cache["time"] < 24*3600) $cached_token = $cache["token"];
+              }
+          }
+
+       
+          $fresh_token = null;
+          $json = @file_get_contents($SONYLIV_JSON);
+          if ($json) {
+              $data = json_decode($json, true);
+              if (isset($data["matches"]) && is_array($data["matches"])) {
+                  foreach ($data["matches"] as $match) {
+                      if (!empty($match["video_url"])) {
+                          $parts = parse_url($match["video_url"]);
+                          if (!empty($parts["query"])) { $fresh_token = $parts["query"]; break; }
+                      }
+                  }
+              }
+          }
+
+          $final_token = $fresh_token ?: $cached_token;
+
+          if ($fresh_token) {
+              file_put_contents($CACHE_FILE, json_encode(["token"=>$fresh_token,"time"=>time()]));
+          }
+
+          if (!$final_token) {
+              echo "No valid token found\n";
+              exit(1);
+          }
+
+          if (!file_exists($API_FILE)) { echo "Missing api.json\n"; exit(1); }
+          $channels = json_decode(file_get_contents($API_FILE), true);
+          foreach ($channels as $id => &$ch) {
+              if (isset($ch["m3u8"])) {
+                  $ch["m3u8"] = preg_replace("/\\?.*/", "", $ch["m3u8"]);
+                  $ch["m3u8"] .= "?" . $final_token;
+              }
+          }
+
+          // Step 4: Save rest_api.json
+          file_put_contents($OUTPUT_JSON, json_encode($channels, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
+
+       
+          $m3u = "#EXTM3U\n";
+          foreach ($channels as $id => $ch) {
+              $name = $ch["name"] ?? $id;
+              $logo = $ch["logo"] ?? "";
+              $url  = $ch["m3u8"] ?? "";
+              $m3u .= "#EXTINF:-1 tvg-id=\"$id\" tvg-logo=\"$logo\", $name\n$url\n";
+          }
+          file_put_contents($PLAYLIST_FILE, $m3u);
+
+          echo " SonyLiv Auto Update Completed\n";
+          '
+
+      - name: Commit & Push Outputs
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add rest_api.json playlist.m3u sony_token_bk.json
+          git commit -m "🔄 Auto update SonyLiv Token & Playlist ($(date))" || echo "No changes to commit"
+          git push
