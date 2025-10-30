@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="sony-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png", sony-hd
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-sab-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png", sony-sab-hd
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-marathi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png", sony-marathi
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-pal" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png", sony-pal
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-aath" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png", sony-aath
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-yay" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png", sony-yay
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-max-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png", sony-max-hd
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-max" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png", sony-max
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-max-2" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png", sony-max-2
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-wah" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png", sony-wah
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-pix-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png", sony-pix-hd
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-bbc-earth-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png", sony-bbc-earth-hd
+https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-1" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png", sony-ten-1
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-2" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png", sony-ten-2
+https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-3" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png", sony-ten-3
+https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png", sony-ten-4
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png", sony-ten-5
+https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png", sony-ten-1-hd
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-2-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png", sony-ten-2-hd
+https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-3-hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png", sony-ten-3-hd
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-4-hd" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png", sony-ten-4-hd
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
+#EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png", sony-ten-5-hd
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1761874062~acl=/*~id=88002981380171563853070396469671~hmac=6c4d636b22b621ac4ec0108c2b24765430546e496ef34bf2afaf0893b10374e7
