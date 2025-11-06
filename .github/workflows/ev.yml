@@ -22,11 +22,13 @@ jobs:
           mkdir -p data
           curl -s "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-/refs/heads/main/sony_event.json" -o data/input.json
 
-          echo "Converting format..."
+          echo "Converting and cleaning URLs..."
           echo '{' > data/api.json
-          jq -r '.events[] | 
-            "\"\(.id)\": {\"id\": \"\(.id)\", \"title\": \"\(.name)\", \"logo\": \"\(.logo)\", \"genre\": \"\(.category)\", \"language\": \"\(.language)\", \"m3u8\": \"\(.url)\"},"' \
-            data/input.json | sed '$ s/,$//' >> data/api.json
+          jq -r '
+            .events[] |
+            .url |= sub("\\|x-playback-session-id=.*$"; "") |
+            "\"\(.id)\": {\"id\": \"\(.id)\", \"title\": \"\(.name)\", \"logo\": \"\(.logo)\", \"genre\": \"\(.category)\", \"language\": \"\(.language)\", \"m3u8\": \"\(.url)\"},"
+          ' data/input.json | sed '$ s/,$//' >> data/api.json
           echo '}' >> data/api.json
 
       - name: Commit and Push changes
@@ -36,7 +38,7 @@ jobs:
 
           if [ -n "$(git status --porcelain data/api.json)" ]; then
             git add data/api.json
-            git commit -m "Auto update data/api.json"
+            git commit -m "Auto update cleaned data/api.json"
             git push
           else
             echo "No changes detected — skipping commit."
