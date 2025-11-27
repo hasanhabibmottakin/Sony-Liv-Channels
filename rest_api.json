@@ -89,11 +89,11 @@
     },
     "1000009276": {
         "id": "1000009276",
-        "title": "Sony Sports Ten 3 HD",
-        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png",
+        "title": "Sony Sports Ten 1 HD",
+        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png",
         "genre": "Sports",
-        "language": "Hindi",
-        "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
+        "language": "English",
+        "playbackURL": "https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
     },
     "1000009280": {
         "id": "1000009280",
@@ -119,42 +119,42 @@
         "language": "Hindi",
         "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
     },
-    "1000009284": {
-        "id": "1000009284",
+    "1000119187": {
+        "id": "1000119187",
         "title": "Sony Sports Ten 4",
         "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/38_275.png",
         "genre": "Sports",
         "language": "Hindi",
         "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
     },
-    "1000009265": {
-        "id": "1000009265",
+    "1000009281": {
+        "id": "1000009281",
         "title": "Sony Sports Ten 5",
         "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/18_265.png",
         "genre": "Sports",
         "language": "English",
         "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
     },
-    "1000009266": {
-        "id": "1000009266",
-        "title": "Sony Sports Ten 1 HD",
-        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png",
-        "genre": "Sports",
-        "language": "English",
-        "playbackURL": "https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
-    },
-    "1000009267": {
-        "id": "1000009267",
+    "1000009277": {
+        "id": "1000009277",
         "title": "Sony Sports Ten 2 HD",
         "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/23_267.png",
         "genre": "Sports",
         "language": "English",
         "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
     },
-    "1000009274": {
-        "id": "1000009274",
+    "1000009278": {
+        "id": "1000009278",
+        "title": "Sony Sports Ten 3 HD",
+        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png",
+        "genre": "Sports",
+        "language": "Hindi",
+        "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"
+    },
+    "1000119186": {
+        "id": "1000119186",
         "title": "Sony Sports Ten 4 HD",
-        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_21000009276.png",
+        "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png",
         "genre": "Sports",
         "language": "Hindi",
         "playbackURL": "https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209"

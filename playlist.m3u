@@ -21,23 +21,23 @@ https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=176423963
 https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
 #EXTINF:-1 tvg-id="1000009258" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/34_252.png", Sony PIX HD
 https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009276" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png", Sony Sports Ten 3 HD
-https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
+#EXTINF:-1 tvg-id="1000009276" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png", Sony Sports Ten 1 HD
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
 #EXTINF:-1 tvg-id="1000009280" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/20_262.png", Sony Sports Ten 1
 https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
 #EXTINF:-1 tvg-id="1000009279" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/22_261.png", Sony Sports Ten 2
 https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
 #EXTINF:-1 tvg-id="1000009283" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/24_274.png", Sony Sports Ten 3
 https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009284" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/38_275.png", Sony Sports Ten 4
+#EXTINF:-1 tvg-id="1000119187" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/38_275.png", Sony Sports Ten 4
 https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009265" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/18_265.png", Sony Sports Ten 5
+#EXTINF:-1 tvg-id="1000009281" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/18_265.png", Sony Sports Ten 5
 https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009266" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png", Sony Sports Ten 1 HD
-https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009267" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/23_267.png", Sony Sports Ten 2 HD
+#EXTINF:-1 tvg-id="1000009277" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/23_267.png", Sony Sports Ten 2 HD
 https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009274" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_21000009276.png", Sony Sports Ten 4 HD
+#EXTINF:-1 tvg-id="1000009278" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png", Sony Sports Ten 3 HD
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
+#EXTINF:-1 tvg-id="1000119186" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png", Sony Sports Ten 4 HD
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
-#EXTINF:-1 tvg-id="1000009275" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_21000009276.png", Sony Sports Ten 4 HD
+#EXTINF:-1 tvg-id="1000009275" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png", Sony Sports Ten 4 HD
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764239633~acl=/*~id=05042799130949538923538616624974~hmac=133a78cc7b3f2e61baa3cbc310e5a65fa355a11e840a90955b59053fd97bb209
